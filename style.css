@@ -3,6 +3,9 @@ body {
     font-family: sans-serif;
     margin: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+  
 }
 
 /* Estilizando o contêiner da navbar */
@@ -19,8 +22,16 @@ body {
     margin: 0 10px; /* Adiciona um espaço entre os links */
     font-size: 18px;
 }
-
+a
 .logo a {
     font-weight: bold;
     font-size: 24px;
 }
+
+ /* Aqui começa o Flexbox */
+.navbar-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ 
